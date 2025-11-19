@@ -1,14 +1,20 @@
 # Retro CTF 
 This is a quick writeup for Retro CTF 
 after THM provided us with machine's IP(it's gonna be diffrent for you) i added the hostname to the hosts file as following command :
-   echo "10.10.4.77 retro.thm" > /etc/hosts 
+
+   echo "10.10.4.77 retro.thm" > /etc/hosts .
+   
 i kicked of with nmap scan to discover which ports are open on the machine : 
 
 <img width="758" height="256" alt="Screenshot 2025-11-14 205746" src="https://github.com/user-attachments/assets/fbeb191a-c7a1-4041-bf49-b9c85eae166c" />
+
   .-Pn option to skip ping check (ICMP packets) to be more stealthier
+  
   .-sV is for service version detection scan 
+  
 we found port 80 is open and Microsoft IIS as it's http srever 
 also port 3389 is open which is for RDP 
+
 so this is huge indicator that the machine is running Windows 
 
 as initial process i opened the web page and this is what i found :
