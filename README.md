@@ -1,7 +1,7 @@
 # Retro CTF 
 This is a quick writeup for Retro CTF .
 
-after THM provided us with machine's IP(it's gonna be diffrent for you) i added the hostname to the hosts file as following command :
+after THM provided us with machine's IP i added the hostname to the hosts file as following command :
 
    echo "10.10.4.77 retro.thm" > /etc/hosts .
    
