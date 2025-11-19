@@ -41,7 +41,7 @@ and indeed i got RDP session :
 <img width="1765" height="733" alt="Screenshot 2025-11-14 220203" src="https://github.com/user-attachments/assets/356498e2-bba5-4a9e-a7d8-ae975717c8be" />
 
 after enumerating users,groups with powershell Wade user is not part of Adminitrators group
-so i need to elevate privilges .
+so i need to elevate privileges .
 after enumerating services,process,network information i didn't anything interesting , but since am connected as GUI with RDP i opened chrome browser and this what i found :
 
 <img width="445" height="209" alt="Screenshot 2025-11-14 220553" src="https://github.com/user-attachments/assets/f28ffe4a-e404-4566-a50a-38a1af9dea14" />
