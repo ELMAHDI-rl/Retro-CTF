@@ -42,9 +42,11 @@ and indeed i got RDP session :
 after enumerating users,groups with powershell Wade user is not part of Adminitrators group
 so i need to elevate privilges .
 after enumerating services,process,network information i didn't anything interesting , but since am connected as GUI with RDP i opened chrome browser and this what i found :
+
 <img width="445" height="209" alt="Screenshot 2025-11-14 220553" src="https://github.com/user-attachments/assets/f28ffe4a-e404-4566-a50a-38a1af9dea14" />
 
 i found in the search history NIST site for CVE-2019-1388 description :
+
 <img width="1109" height="559" alt="Screenshot 2025-11-14 220651" src="https://github.com/user-attachments/assets/693d30a3-c902-42ca-ba04-9c8e17ac5c1d" />
 
 this is privilege escalation vulnerability and effecting windows server 2016 which what the machine is running .
@@ -55,5 +57,6 @@ after going through the poc i escalated my privilges :
 <img width="372" height="54" alt="Screenshot 2025-11-14 214528" src="https://github.com/user-attachments/assets/d4f24e30-4023-459a-af25-15588d465414" />
 
 and i got the root flag:
+
 <img width="408" height="27" alt="Screenshot 2025-11-14 215429" src="https://github.com/user-attachments/assets/45154a1e-c9a2-4529-9b11-cc47c9d29fcf" />
 
