@@ -1,5 +1,5 @@
 # Retro CTF 
-This is a quick writeup for Retro CTF 
+This is a quick writeup for Retro CTF .
 
 after THM provided us with machine's IP(it's gonna be diffrent for you) i added the hostname to the hosts file as following command :
 
