@@ -12,7 +12,7 @@ i kicked of with nmap scan to discover which ports are open on the machine :
   
   .-sV is for service version detection scan 
   
-we found port 80 is open and Microsoft IIS as it's http srever 
+i found port 80 is open and Microsoft IIS as it's http srever 
 also port 3389 is open which is for RDP 
 
 so this is huge indicator that the machine is running Windows 
