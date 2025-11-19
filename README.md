@@ -9,9 +9,9 @@ i kicked of with nmap scan to discover which ports are open on the machine :
 
 <img width="758" height="256" alt="Screenshot 2025-11-14 205746" src="https://github.com/user-attachments/assets/fbeb191a-c7a1-4041-bf49-b9c85eae166c" />
 
-  .-Pn option to skip ping check (ICMP packets) to be more stealthier
+  .-Pn option to skip ping check (ICMP packets) in case of the machine bloking ping probes.
   
-  .-sV is for service version detection scan 
+  .-sV is for service version detection scan.
   
 i found port 80 is open and Microsoft IIS as it's http srever 
 also port 3389 is open which is for RDP 
