@@ -31,8 +31,11 @@ and as expected it's web page , as initial approch i started with browsing the s
 <img width="918" height="684" alt="Screenshot 2025-11-14 220302" src="https://github.com/user-attachments/assets/55de51d5-8d64-457e-8474-2f138dc3f717" />
 
 Wade user posted a comment leaving spicy information as parzival word since he doesn't know how to spell it .
+
 based on what i've enumerated previously RDP port is open , i tried to connect to RDP as wade user and parzival as password with xfreerdp tool : 
+
  .$ xfreerdp /u: wade /v:10.10.4.77 /p: parzival
+ 
 and indeed i got RDP session :
 <img width="1765" height="733" alt="Screenshot 2025-11-14 220203" src="https://github.com/user-attachments/assets/356498e2-bba5-4a9e-a7d8-ae975717c8be" />
 
